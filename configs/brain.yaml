@@ -1,0 +1,17 @@
+brain:
+  model: "gpt-4.1-mini"
+  temperature: 0
+  max_output_tokens: 120
+
+loop:
+  sleep_seconds: 0.5
+
+safety:
+  default_action: "STOP"
+  require_user_confirm: true   # set false only when you trust it
+  allow_actions:
+    - "MOVE_FORWARD_SHORT"
+    - "TURN_LEFT_90"
+    - "TURN_RIGHT_90"
+    - "STOP"
+    - "ASK_USER"

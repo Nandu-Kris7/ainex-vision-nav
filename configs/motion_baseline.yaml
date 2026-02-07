@@ -1,0 +1,28 @@
+walking_param:
+  period_time: 600.0
+  dsp_ratio: 0.62
+  step_fb_ratio: 0.024
+  period_times: 0
+
+  # Motion amplitudes (tune carefully)
+  x_move_amplitude: 0.006
+  y_move_amplitude: 0.0
+  z_move_amplitude: 0.010
+  angle_move_amplitude: 0.0
+
+  # Stability / sway
+  y_swap_amplitude: 0.03
+  z_swap_amplitude: 0.005
+  pelvis_offset: 2.0
+  hip_pitch_offset: 8.0
+  arm_swing_gain: 0.5
+
+  # Initial offsets
+  init_x_offset: 0.0
+  init_y_offset: 0.02
+  init_z_offset: 0.015
+  init_roll_offset: 0.0
+  init_pitch_offset: 0.0
+  init_yaw_offset: -0.05
+
+  move_aim_on: false

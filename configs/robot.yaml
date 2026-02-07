@@ -1,0 +1,13 @@
+robot:
+  name: ainex
+  ros_master_uri: "http://localhost:11311"
+
+camera:
+  # Use what actually publishes on your robot
+  image_topic: "/camera/image_raw"
+  # If you later switch to compressed
+  # image_topic: "/camera/image_raw/compressed"
+
+paths:
+  captures_dir: "~/captures"
+  capture_file: "~/captures/capture.jpg"

@@ -1,0 +1,13 @@
+presets:
+  forward_short:
+    x_move_amplitude: 0.006
+    angle_move_amplitude: 0.0
+    z_move_amplitude: 0.010
+
+  turn_left_90:
+    x_move_amplitude: 0.0
+    angle_move_amplitude: 1.2
+
+  turn_right_90:
+    x_move_amplitude: 0.0
+    angle_move_amplitude: -1.2
