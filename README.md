@@ -42,21 +42,21 @@ Research project conducted under the supervision of **Professor Myung (Michael) 
 
 ## Setup (robot side)
 
-Ubuntu / ROS Noetic
-Robot reachable via SSH (IP example)
-Camera topic name used (/camera/image_rect_color etc.)
+- Ubuntu / ROS Noetic
+- Robot reachable via SSH (IP example)
+- Camera topic name used (/camera/image_rect_color etc.)
 
 ### Python dependency
 
-Install deps: python3 -m pip install --user -r requirements.txt
-Set env: source ~/.config/ainex_vision_nav/openai.env
-Run: DRY_RUN=0 python3 brain/demo_loop.py
+- Install deps: python3 -m pip install --user -r requirements.txt
+- Set env: source ~/.config/ainex_vision_nav/openai.env
+- Run: DRY_RUN=0 python3 brain/demo_loop.py
 
 ## Troubleshooting Tips
 
-“No frames” → restart service: sudo systemctl restart start_app_node.service
-“Can’t communicate with master” → check ROS_MASTER_URI
-Verify camera: rostopic hz /camera/image_raw -w 2
+- “No frames” → restart service: sudo systemctl restart start_app_node.service
+- “Can’t communicate with master” → check ROS_MASTER_URI
+- Verify camera: rostopic hz /camera/image_raw -w 2
 
 ## License
 
