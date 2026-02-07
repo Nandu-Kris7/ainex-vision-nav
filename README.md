@@ -46,6 +46,6 @@ Research project conducted under the supervision of **Professor Myung (Michael) 
 
 python3 -m pip install --user -U openai.
 
-## Licsnse
+## License
 
 MIT — see LICENSE.
